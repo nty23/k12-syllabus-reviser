@@ -30,7 +30,7 @@ Welcome to **K12 Syllabus Reviser** — an AI-powered study assistant tailored f
 
 1. Clone the repo and navigate to the backend folder:  
    ```bash
-   git clone https://github.com/yourusername/k12-syllabus-reviser.git
+   git clone https://github.com/nty23/k12-syllabus-reviser.git
    cd k12-syllabus-reviser/backend
 
 ### Create and activate a virtual environment
@@ -44,7 +44,7 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 
 ### Create a .env file in the backend folder and add your Groq API key:
-GROQ_API_KEY=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
+GROQ_API_KEY=your_groq_api_key
 
 ### Run the backend server
 python app.py
